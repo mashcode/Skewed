@@ -1,0 +1,127 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+.box { 
+	width: 24.73%;
+	display: inline-block;
+	pointer-events: auto;	/* allow pointer events for the box */
+	margin: 0; padding: 0;
+}
+
+/* make the links the size of the full boxes (not needed for technique) */
+.box a { 
+	display: block; 
+	width: 100%; 
+	height: auto;
+	margin: 0; padding: 0;
+}
+
+.box img {
+	border-radius: .5em;
+	width: 100%;
+	height: auto;
+	border: 0;
+	margin: 0; 
+	padding: 0;
+}
+.box-wrapper {
+  -webkit-transform: skewX(-10deg);
+  -moz-transform: skewX(-10deg);
+  -ms-transform: skewX(-10deg);
+  -o-transform: skewX(-10deg);
+  transform: skewX(-10deg);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+	border-radius: .5em;
+	margin: 0; padding: 5px 5px 0 5px;
+	position: relative;
+}
+
+/* decoration for body, header and footer */
+h1 { 
+	color: #2F2F2F;
+	text-shadow: 0 0 2px white;
+	margin: 1em 0;
+	text-align: center;
+}
+footer { 
+	/*position: absolute;
+	bottom: 1px;*/
+}
+footer p { 
+	color: dimgrey;
+	text-shadow: 0 0 1px white;
+	text-align: center;
+}
+footer a { 
+	color: darkorange;
+	text-decoration: none;
+}
+
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.box { 
+			width: 24.6%;
+		}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.box { 
+			width: 24.13%;
+		}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.box { 
+			width: 24.39%;
+		}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
