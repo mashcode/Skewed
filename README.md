@@ -1,4 +1,4 @@
 Skewed
 ======
 
-Skew transform for multiple media viewports image box with a jquery html5 lightbox
+Skew transform image box with multiple media viewport queries & dislayed using a jquery html5 lightbox
