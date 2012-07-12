@@ -58,10 +58,6 @@ h1 {
 	margin: 1em 0;
 	text-align: center; 
 }
-.inner {
-	padding-left: 20px;
-	padding-right: 20px;
-}
 footer { 
 	/*position: absolute;
 	bottom: 1px;*/
@@ -91,6 +87,10 @@ footer a {
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
 		.box { 
 			width: 24.6%;
+		}
+		.inner {
+			padding-left: 20px;
+			padding-right: 20px;
 		}
 	}
 
