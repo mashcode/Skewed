@@ -71,7 +71,9 @@ footer a {
 	color: darkorange;
 	text-decoration: none;
 }
-
+a, a:visited {
+	color: none;
+}
 
 /* #Page Styles
 ================================================== */
