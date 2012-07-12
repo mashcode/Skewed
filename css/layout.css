@@ -88,10 +88,6 @@ footer a {
 		.box { 
 			width: 24.6%;
 		}
-		.inner {
-			padding-left: 20px;
-			padding-right: 20px;
-		}
 	}
 
 	/* All Mobile Sizes (devices and browser) */
@@ -106,10 +102,17 @@ footer a {
 		.box { 
 			width: 24.39%;
 		}
+		.inner {
+		  padding: 20px 10px;
+		}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {}
+	@media only screen and (max-width: 479px) {
+		.inner {
+		  padding: 20px 10px;
+		}
+	}
 
 
 /* #Font-Face
