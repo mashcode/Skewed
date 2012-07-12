@@ -56,7 +56,10 @@ h1 {
 	color: #2F2F2F;
 	text-shadow: 0 0 2px white;
 	margin: 1em 0;
-	text-align: center;
+	text-align: center; 
+.inner {
+	padding-left: 20px;
+	padding-right: 20px;
 }
 footer { 
 	/*position: absolute;
